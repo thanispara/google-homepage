@@ -78,24 +78,77 @@ main{
 #search-div{
     display:flex;
     margin-top:23px;
-    width: 600px;
+    min-width:350px;
+    width: 60%;
+    max-width:600px;
     justify-content: center;
-}
-
-.search-box{
-    width: auto;
-    min-width: 500px;
-    max-width: 584px;
-    height: 40px;
     border-radius: 24px;
     border: 0.1px solid #ddd;
     outline:none;
 }
 
-#search-box:hover, search-box:focus-within{
+.search-box{
+    width:90%;
+    min-width:280px;
+    height: 40px;
+    border:none;
+    outline:none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .9)
+}
+
+#search-div:hover, #search-div:focus-within{
     border-color:white;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     outline:none;
+}
+
+.search-icon{
+    width: 24px;
+    height: 24px;
+    align-self:center;
+    margin-left:15px;
+}
+
+.mike-icon{
+    width: 26px;
+    height: 26px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
+
+.tooltip{
+    position:relative;
+    display:inline-block;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility:visible;
 }
 
 .language-div{
