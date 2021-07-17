@@ -135,9 +135,9 @@ button:hover{
 .tooltip .tooltiptext{
     visibility: hidden;
     width: 120px;
-    top: 100%;
+    top: 115%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -70px;
     background-color:black;
     color: #fff;
     text-align: center;
@@ -149,6 +149,34 @@ button:hover{
 
 .tooltip:hover .tooltiptext{
     visibility:visible;
+}
+
+.button-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.searchbuttons{
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+.searchbuttons:hover{
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px rgb(0, 0, 0/10%);
+}
+
+.searchbuttons:focus{
+    border-color:blue;
 }
 
 .language-div{
