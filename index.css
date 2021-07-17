@@ -1,3 +1,20 @@
+#nav-links{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    background-color: grey;
+}
+
+li {
+    list-style: none;
+    padding-left:10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 main{
     background-color: grey;
     display:flex;
@@ -15,5 +32,9 @@ main{
 #search-div{
     display:flex;
     margin-top:15px;
+
+}
+
+#search-icon {
 
 }
