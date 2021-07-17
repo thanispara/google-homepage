@@ -2,17 +2,34 @@
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
-    background-color: grey;
+    align-items: center;
+    padding: 6px;
 }
 
 li {
     list-style: none;
     padding-left:10px;
+    
 }
 
 a{
     text-decoration: none;
     color: black;
+    opacity: 0.75;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#apps-icon{
+    opacity: 0.6;
+    padding:7px;
+}
+
+#apps-icon:hover{
+    background-color:rgb(180, 180, 180);
+    border-radius: 50%;
 }
 
 main{
@@ -36,5 +53,5 @@ main{
 }
 
 #search-icon {
-
+    
 }
