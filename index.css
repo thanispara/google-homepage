@@ -77,7 +77,34 @@ main{
 
 #search-div{
     display:flex;
-    margin-top:25px;
+    margin-top:23px;
+    width: 600px;
+    justify-content: center;
+}
+
+.search-box{
+    width: auto;
+    min-width: 500px;
+    max-width: 584px;
+    height: 40px;
+    border-radius: 24px;
+    border: 0.1px solid #ddd;
+    outline:none;
+}
+
+#search-box:hover, search-box:focus-within{
+    border-color:white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    outline:none;
+}
+
+.language-div{
+    margin-top: 16px;
+}
+
+.language-div a:link, .language-div a:visited{
+    text-decoration: none;
+    color: #1a0dab;
 }
 
 .footer{
